@@ -97,13 +97,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="datos\china.png" />
+    <Resource Include="datos\fruit_food_apple.ico" />
+    <Resource Include="datos\gluten.png" />
+    <Resource Include="datos\mexico.png" />
+    <Resource Include="datos\milk.png" />
+    <Resource Include="datos\soybean.png" />
+    <Resource Include="datos\sulfide.png" />
+    <Resource Include="datos\united_states.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="china.png" />
-    <Resource Include="gluten.png" />
     <Resource Include="mexico.png" />
+    <Resource Include="united_states.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gluten.png" />
     <Resource Include="milk.png" />
     <Resource Include="soybean.png" />
     <Resource Include="sulfide.png" />
-    <Resource Include="united_states.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
