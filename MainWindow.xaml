@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Comida_UT5_DINT"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="1000">
     <Window.Resources>
         <local:paisTipoConverter x:Key="paisTipoConverter"></local:paisTipoConverter>
         <Style TargetType="Image" x:Key="paisImage">
@@ -37,7 +37,7 @@
             <Setter Property="Height" Value="20" />
             <Setter Property="Source"  Value="milk.png" />
             <Style.Triggers>
-                <DataTrigger Binding="{Binding Path=Leche}"  Value="false">                 
+                <DataTrigger Binding="{Binding Path=Leche}"  Value="false">
                     <Setter Property="Visibility" Value="Collapsed" />
                 </DataTrigger>
             </Style.Triggers>
@@ -176,9 +176,8 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="10"
-                          Background="LightBlue"
                           Width="200"
-                          Height="250">
+                          Height="250" Background="#FFF0F058">
                         <Grid.Effect>
                             <DropShadowEffect />
                         </Grid.Effect>

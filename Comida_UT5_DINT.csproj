@@ -117,5 +117,13 @@
     <Resource Include="soybean.png" />
     <Resource Include="sulfide.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="datos\img\burguer.jpg" />
+    <Resource Include="datos\img\cerdoagridulce.jpg" />
+    <Resource Include="datos\img\dumplings.jpg" />
+    <Resource Include="datos\img\fajitas.jpg" />
+    <Resource Include="datos\img\hotdog.jpg" />
+    <Resource Include="datos\img\tacos.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
